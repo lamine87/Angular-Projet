@@ -1,0 +1,14 @@
+<table *ngIf="livre != undefined">
+    <tr>
+        <td colspan="2">
+            <img src="{{livre.image}}" alt="">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">{{ livre.titre }}</td>
+    </tr>
+    <tr>
+        <td>{{ livre.auteur }}</td>
+        <td>{{ livre.date }}</td>
+    </tr>
+</table>
